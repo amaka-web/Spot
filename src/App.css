@@ -143,6 +143,55 @@ main {
   color: black;
 }
 
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 999;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.modal {
+  background: white;
+  padding: 30px;
+  border-radius: 12px;
+  max-width: 400px;
+  width: 90%;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.3);
+}
+
+.modal input {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  font-size: 16px;
+}
+
+.modal-buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.modal-buttons button {
+  padding: 10px 20px;
+  background-color: #222;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+.modal-buttons button:hover {
+  background-color: #333;
+}
+
+
 /* New post section */
 .new-post {
   margin-left: auto;
@@ -290,6 +339,9 @@ main {
     flex-direction: column;
     gap: 20px; /* adds spacing between stacked elements */
   }
+  .new-post button {
+    width: 800px;
+  }
 }
 
 /* For tablets and small devices */
@@ -310,6 +362,11 @@ main {
   .gallery-item img {
     width: 100%;
     height: auto;
+  }
+
+  .new-post button {
+    width: 400px;
+    justify-content: center;
   }
 }
 
