@@ -339,9 +339,7 @@ main {
     flex-direction: column;
     gap: 20px; /* adds spacing between stacked elements */
   }
-  .new-post button {
-    width: 800px;
-  }
+
 }
 
 /* For tablets and small devices */
