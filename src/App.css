@@ -363,8 +363,12 @@ main {
   }
 
   .new-post button {
-    width: 400px;
-    justify-content: center;
+    width: 500px;  
+    max-width: 400pxg;
+    justify-content: center;     /* Full width */
+    font-size: 18px;   /* Larger font for readability */
+    padding: 18px 0;   /* Adjust vertical padding */
+    box-sizing: border-box; /* Include padding in width */
   }
 }
 
@@ -384,12 +388,7 @@ main {
   }
 
   /* Make new post button full width on small screens */
-  .new-post button {
-    width: 100%;       /* Full width */
-    font-size: 18px;   /* Larger font for readability */
-    padding: 18px 0;   /* Adjust vertical padding */
-    box-sizing: border-box; /* Include padding in width */
-  }
+
 
   .gallery-item img {
     width: 100%;
