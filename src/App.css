@@ -363,8 +363,8 @@ main {
   }
 
   .new-post button {
-    width: 400px;  
-    max-width:200px;
+    width: 500px;  
+    max-width:300px;
     justify-content: center;     /* Full width */
     font-size: 18px;   /* Larger font for readability */
     padding: 18px 0;   /* Adjust vertical padding */
