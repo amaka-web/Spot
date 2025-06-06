@@ -16,7 +16,7 @@ function App() {
       </main>
       <footer className="copy-container">
         <div className="copyright">
-          <p>&copy; 2025 Jane Doe. All rights reserved.</p>
+          <p>&copy; 2025 Chiamaka Faith. All rights reserved.</p>
         </div>
       </footer>
     </>
