@@ -2,12 +2,12 @@ import React, { useState } from "react";
 
 // Sample gallery data with id, title, and image src
 const galleryImages = [
-  { id: 1, src: "/images/Image-1.png", title: "Image 1" },
-  { id: 2, src: "/images/Image-2.png", title: "Image 2" },
-  { id: 3, src: "/images/Image-3.png", title: "Image 3" },
-  { id: 4, src: "/images/Image-4.png", title: "Image 4" },
-  { id: 5, src: "/images/Image-5.png", title: "Image 5" },
-  { id: 6, src: "/images/Image-6.png", title: "Image 6" },
+  { id: 1, src: "/images/Image-1.png", title: "Val Thorens" },
+  { id: 2, src: "/images/Image-2.png", title: "Restaurant terrace" },
+  { id: 3, src: "/images/Image-3.png", title: "An outdoor cafe" },
+  { id: 4, src: "/images/Image-4.png", title: "A very long bridge, over the forest..." },
+  { id: 5, src: "/images/Image-5.png", title: "Tunnel with morning light" },
+  { id: 6, src: "/images/Image-6.png", title: "Mountain housegi" },
 ];
 
 // Gallery item (card)
